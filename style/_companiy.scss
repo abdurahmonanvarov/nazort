@@ -1,0 +1,138 @@
+.companiy {
+    margin-bottom: 130px;
+
+    .continer__comp {
+        h2 {
+            margin-bottom: 72px;
+        }
+
+        .companiy__cover {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+
+        }
+    }
+
+    .companiy__cover {
+        .companiy__info {
+            background-color: #fff;
+            width: 605px;
+            height: 210px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.149);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding-left: 83px;
+            position: relative;
+
+            .blue {
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                height: 100%;
+                width: 51px;
+                background-color: #0B7572;
+                position: absolute;
+                left: 0;
+            }
+
+        }
+    }
+
+    .companiy__info__auth {
+        h3 {
+            margin-bottom: 12px;
+
+        }
+
+        p {
+            padding-bottom: 16px;
+
+
+        }
+
+        .yello {
+            width: 86px;
+            border-bottom: 3px solid #FFCE50;
+            margin-bottom: 35px;
+        }
+
+        .auth__icons {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
+
+
+/**/
+
+.kontact {
+    margin-bottom: 46px;
+
+    .continer__kontact {
+        h2 {
+            margin-bottom: 94px;
+        }
+
+        .contact__info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .kontact__info {
+                display: flex;
+                gap: 37px;
+                margin-bottom: 50px;
+
+                .call__info {
+                    h6 {
+                        font-weight: 400;
+                        color: #6B6B6C;
+                        font-size: 14px;
+                        margin-bottom: 8px;
+                    }
+
+                    h5 {
+                        font-weight: 600;
+                        font-size: 20px;
+                        color: #363738;
+                    }
+                }
+                img{
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+}
+
+.contact__info {
+    .kontact__wrapper {
+        width: 794px;
+        background-color: #F9F9FB;
+        padding: 40px 72px 56px  48px;
+
+        .kontact__auth {
+            border-bottom: 1px solid #E9EAF2;
+            display: flex;
+            align-items: center;
+            gap: 56px;
+            margin-bottom: 32px;
+
+            h6 {
+                width: 175px;
+                font-size: 16px;
+                color: #6B6B6C;
+                padding-bottom: 16px;
+            }
+
+            .child {
+                width: 443px;
+            }
+        }
+    }
+}
