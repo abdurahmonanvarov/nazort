@@ -55,7 +55,9 @@ a {
 #fura2 {
     display: none;
 }
-
+.continer__tab{
+    display: none;
+}
 
 
 
@@ -91,6 +93,9 @@ a {
         .continer {
             max-width: 300px;
 
+        }
+        .continer__tab{
+            display: block;
         }
 
     }

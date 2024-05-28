@@ -214,77 +214,14 @@ tbody{
         max-width: 300px;
 
     }
-    
-
-    .block {
-        .continer__block {
-            .block__info{
-              h2{
-                width: 345px;
-              }
-
-                padding: 0;
-            }
-        }
-    }
-     .block{
-        .block__left {
-            background-color: #fff;
-            border-radius: 8px;
-            padding: 15px;
-    
-            .header__block {
-                p {
-                    display: none;
-                }
-            }
-    
-            .tablet {
-                margin-top: 0px;
-    
-                table {
-                    border-collapse: collapse;
-    
-                    thead {
-                          width: 313px;
-                          .die{
-                            display: none;
-                          }
-                         .life{
-                            display: block;
-                            width: 313px;
-                          }
-                        
-    
-                    }
-                }
-    
-            }
-        }
-     }
-
-     tbody{
+    .block{
         display: none;
-        tr{
-          td{
-              padding: 18px 10px;
-              h5{
-                  margin-bottom: 10px;
-              }
-              .cost{
-                  padding-top: 5px;
-                  font-size: 10px;
-              }
-              .tel{
-                  font-size: 10px;
-              }
-              p{
-                  font-size: 11px;
-                  line-height: 14px;
-              }
-          }
-        }
-      }
+    }
+    .continer__tab{
+        display: block;
+    }
+    
+
    
 }
 
