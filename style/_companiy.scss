@@ -101,7 +101,8 @@
                         color: #363738;
                     }
                 }
-                img{
+
+                img {
                     cursor: pointer;
                 }
             }
@@ -114,7 +115,7 @@
     .kontact__wrapper {
         width: 794px;
         background-color: #F9F9FB;
-        padding: 40px 72px 56px  48px;
+        padding: 40px 72px 56px 48px;
 
         .kontact__auth {
             border-bottom: 1px solid #E9EAF2;
@@ -141,25 +142,25 @@
 @media screen and (max-width: 1200px) {
     .continer {
         max-width: 960px;
-    } 
+    }
 
     .kontact {
         .continer__kontact {
             h2 {
                 margin-bottom: 94px;
             }
-    
+
             .contact__info {
                 display: flex;
                 flex-direction: column;
                 justify-content: start;
-    
+
                 .kontact__info {
                     display: flex;
                     gap: 37px;
                     margin-bottom: 50px;
-                    
-    
+
+
                     .call__info {
                         h6 {
                             font-weight: 400;
@@ -167,19 +168,20 @@
                             font-size: 14px;
                             margin-bottom: 8px;
                         }
-    
+
                         h5 {
                             font-weight: 600;
                             font-size: 20px;
                             color: #363738;
                         }
                     }
-                    img{
+
+                    img {
                         cursor: pointer;
                     }
                 }
             }
-    
+
         }
     }
 
@@ -187,17 +189,17 @@
         .kontact__wrapper {
             max-width: 794px;
             background-color: #F9F9FB;
-            padding: 40px 72px 56px  48px;
-    
+            padding: 40px 72px 56px 48px;
+
             .kontact__auth {
                 border-bottom: 1px solid #E9EAF2;
                 display: flex;
                 flex-direction: column;
                 justify-content: start;
                 margin-bottom: 14px;
-               
-               
-    
+
+
+
                 h6 {
                     align-items: start;
                     width: auto;
@@ -206,7 +208,7 @@
                     color: #6B6B6C;
                     padding-bottom: 16px;
                 }
-    
+
                 .child {
                     width: 443px;
                 }
@@ -215,6 +217,199 @@
     }
 
 
+
+
+}
+@media screen and (max-width: 740px) {
+    .continer {
+        max-width: 540px;
+
+    }
+
+    .contact__info {
+
+        .kontact__wrapper {
+            max-width: 540px;
+            padding: 40px 72px 56px 48px;
+
+            .kontact__auth {
+                border-bottom: none;
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                padding-top: -20px;
+                margin-bottom: -10px;
+                margin-top: 20px;
+
+                h6 {
+                    text-align: start;
+                    display: block;
+                    width: 175px;
+                    font-size: 16px;
+                    color: #6B6B6C;
+                    padding-bottom: 0px;
+                }
+
+                .child {
+
+                    font-size: 16px;
+                    width: 283px;
+                }
+            }
+        }
+    }
+    .contact__info .kontact__wrapper .kontact__auth .child{
+    width: 238px;
+    }
+
+
+}
+
+@media screen and (max-width: 540px) {
+    .continer {
+        max-width: 300px;
+
+    }
+
+    .companiy {
+        .continer__comp {
+            h2 {
+                margin-bottom: 50px;
+            }
+
+            .companiy__cover {
+                gap: 14px;
+
+            }
+        }
+
+        .companiy__cover {
+            .die {
+                display: none;
+            }
+
+            .companiy__info {
+                background-color: #fff;
+                width: 345px;
+                height: 156px;
+                gap: 16px;
+                padding-left: 51px;
+
+                .blue {
+                    height: 100%;
+                    width: 20px;
+                }
+
+                #hero {
+                    width: 100px;
+                    height: 100px;
+                }
+
+            }
+        }
+
+        .companiy__info__auth {
+            h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+
+            }
+
+            p {
+                font-size: 14px;
+                padding-bottom: 14px;
+
+
+            }
+
+            .yello {
+                width: 86px;
+                border-bottom: 3px solid #FFCE50;
+                margin-bottom: 25px;
+            }
+
+            .auth__icons {
+                a img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+
+    .contact__info {
+        max-width: 344px;
+
+        .kontact__wrapper {
+            width: 794px;
+            background-color: #F9F9FB;
+            padding: 40px 72px 56px 48px;
+
+            .kontact__auth {
+                border-bottom: 1px solid #E9EAF2;
+                display: flex;
+                align-items: center;
+                gap: 56px;
+                margin-bottom: 32px;
+
+                h6 {
+                    width: 175px;
+                    font-size: 16px;
+                    color: #6B6B6C;
+                    padding-bottom: 16px;
+                }
+
+                .child {
+                    width: 443px;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 540px) {
+    .continer {
+        max-width: 300px;
+
+    }
+
+    .contact__info {
+
+        .kontact__wrapper {
+            max-width: 344px;
+            padding: 40px 72px 56px 48px;
+
+            .kontact__auth {
+                border-bottom: none;
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                padding-top: -20px;
+                margin-bottom: -10px;
+                margin-top: 20px;
+
+                h6 {
+                    text-align: start;
+                    display: block;
+                    width: 175px;
+                    font-size: 16px;
+                    color: #6B6B6C;
+                    padding-bottom: 0px;
+                }
+
+                .child {
+
+                    font-size: 16px;
+                    width: 283px;
+                }
+            }
+        }
+    }
+    .contact__info .kontact__wrapper .kontact__auth .child{
+    width: 238px;
+    }
 
 
 }

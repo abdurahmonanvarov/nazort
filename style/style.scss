@@ -70,12 +70,24 @@ a {
     .continer {
         max-width: 960px;
     }
+    .vidious{
+        .vidious__continer{
+            max-width: 1200;
+            max-height: 100%;
+        }
+    }
 
 }
 
     @media screen and (max-width: 992px) {
         .continer {
             max-width: 720px;
+        }
+        .vidious{
+            .vidious__continer{
+                max-width: 992px;
+                max-height: 100%;
+            }
         }
 
 
@@ -96,6 +108,13 @@ a {
         .wrapper{
             display: none;
         }
+
+        .vidious{
+            .vidious__continer{
+                max-width: 768px;
+                max-height: 100%;
+            }
+        }
     }
 
     @media screen and (max-width: 540px) {
@@ -105,6 +124,33 @@ a {
         }
         .continer__tab{
             display: block;
+        }
+
+        .companiy{
+            .companiy__cover {
+                .companiy__info {
+                    background-color: #fff;
+                    width: 345px;
+                    height: 156px;
+                    gap: 16px;
+                    padding-left: 51px;
+                    .blue {
+                        height: 100%;
+                        width: 20px;
+                    }
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+        
+                }
+            }
+        }
+        .vidious{
+            .vidious__continer{
+                max-width: 344px;
+                max-height: 100%;
+            }
         }
 
     }
